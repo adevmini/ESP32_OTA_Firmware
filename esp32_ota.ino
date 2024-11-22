@@ -12,8 +12,8 @@ String FirmwareVer = {
   "2.2"
 };
 
-#define URL_fw_Version "https://raw.githubusercontent.com/programmer131/ESP8266_ESP32_SelfUpdate/master/esp32_ota/bin_version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/programmer131/ESP8266_ESP32_SelfUpdate/master/esp32_ota/fw.bin"
+#define URL_fw_Version "https://github.com/adevmini/ESP32_OTA_Firmware/blob/main/bin_version.txt"
+#define URL_fw_Bin "https://github.com/adevmini/ESP32_OTA_Firmware/blob/main/fw.bin"
 
 void connect_wifi();
 void firmwareUpdate();
